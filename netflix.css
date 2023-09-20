@@ -1,0 +1,192 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: rgba(0, 0, 0, 0.5) url("https://assets.nflxext.com/ffe/siteui/vlv3/42df4e1f-bef6-499e-87ff-c990584de314/5e7c383c-1f88-4983-b4da-06e14c0984ba/IN-en-20230904-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-blend-mode: darken;
+
+}
+.logo img {
+    width: 180px;
+    height: 60px;
+    margin-left: 35px;
+    margin-top: 15px;
+} 
+.login-box{
+    position: absolute;
+    background-color: rgba(0, 0, 1, 0.75);
+    margin-left: 36%;
+    height: 670px;
+    max-width   : 450px;
+    margin-top: 1%;
+    padding: 60px 68px 40px;
+}
+.login-box h1{
+    color: white;
+    margin-bottom: 15px;
+    width: 315px;
+    height: 40px;
+}
+.input1, .input2{
+    width: 320px;
+    height: 48px;
+    background-color: #333;
+    border-radius: 3px;
+    border: none;
+    font-size: 16px;
+    padding-left: 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    color: white;
+}
+#sign-in-btn{
+    background-color: red;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 320px;
+    height: 48px;
+    margin-top: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.remember-help{
+    color: #b3b3b3;
+    display: flex;
+    justify-content: space-between;
+}
+input[type=checkbox]{
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: #333;
+}
+label{
+    color: #b3b1b1;
+    font-size: 13px
+}
+.remember-me a{
+    margin-left: 135px;
+    font-size: 13px;
+    color: #b3b1b1;
+    text-decoration: none;
+
+}
+.remember-me a:hover{
+    text-decoration: underline;
+}
+.content2{
+    margin-top: 75px;
+}
+.content2 .new-to-netflix{
+    color: #626161;
+}
+.content2 .sign-up{
+    color: #fff;
+    text-decoration: none;
+}
+.content2 .sign-up:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.content2-msg2 {
+    margin-top: 15px;
+}
+.content2-msg2 .captcha-msg{
+    color: #969595;
+    font-size: 13px;
+}
+.content2-msg2 #learn-more{
+    font-size: 12px;
+    color: #1e90ff;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.content2-msg2 #learn-more:hover{
+    text-decoration: underline;
+}
+
+.input span{
+    color: rgba(248, 132, 31, 0.986);
+    display: none;
+    font-size: 13px;
+}
+.input .e1{
+    margin-top: 5px;
+}
+
+.privacy-msg{
+    color: #969595;
+    font-size: 13px;
+    margin-top: 20px;
+    display: none;
+}
+.privacy-msg a{
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.footer-section{
+    width: 100%;
+    height: 261px;
+    background-color: rgba(0, 0, 1, 0.75);
+    margin-top: 100px;
+    padding: 30px 0px;
+    color: #737373;
+    padding-left: 258px;
+    position: absolute;
+    top: 107%;
+
+}
+.call{
+    word-spacing: 5px;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+.call a{
+    color: #737373;
+    text-decoration: none;
+}
+.call a:hover{
+    text-decoration: underline;
+}
+.footer-menu1 span a{
+    font-size: 13px;
+    margin: 0px 0px 16px;
+    padding: 0px 210px 0px 0px;
+    text-decoration: none;
+    color: #737373;
+}
+.footer-menu2{
+    margin-top: 15px;
+}
+.footer-menu2 span a{
+    font-size: 13px;
+    margin: 0px 0px 16px;
+    padding: 0px 121px 0px 0px;
+    text-decoration: none;
+    color: #737373;
+}
+.footer-menu1 span a:hover{
+    text-decoration: underline;
+}
+.footer-menu2 span a:hover{
+    text-decoration: underline;
+}
+#lang-select{
+    color: #737373;
+    background-color: black;
+    padding: 15px 25px;
+    border-color: #333;
+    border-radius: 5px;
+}
+.language-footer{
+    margin-top: 40px;
+}

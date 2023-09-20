@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="netflix.css">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAS1BMVEVHcEzVBhLkCBPbBxKwBQ6xBg/FBhCtBQ7oCBPiBxLkCBOlBA7iBxTkCBPxCBSXAw3kCBOUAw3lCBJtAAuDAQynBQ6xBg+xBRDjBxJ6RmETAAAAGXRSTlMA//+Xgf////9NuP9m0xr/gn7zcf/MtjhOS7LcjwAAAMtJREFUeAF10MESgzAIRVFUCVZqMTW2/f8v7RjYtMNjlcUZbgaKGcZrpus5cx/6nTL2wUCWDm4YeGOFgNlXYKD+iTsG/s0NAolvPhBg88ZOFQAtfcWTquRALBpVEYhzH5YDNvYGBNo6WM4mOZDmjdI0B2zqK5ohEA1FQJufe2iSA2lnNDQHbMezAzYIpmgAoPXRwWKSA6nkjaIQ7GMfywFXioZKDmaiLRoQ3L2BAXmDMVj9FALBzVdg4I2x/IPzNc3z+3p+9n1at4F8vruuDABTzZR7AAAAAElFTkSuQmCC">
+
+</head>
+<body>
+    <div class="logo">
+        <a href="https://www.netflix.com/in/"><img src="logo.png" alt=""></a>
+    </div>
+
+    <div class="login-box">
+        <h1>Sign In</h1>
+        <form action="https://www.netflix.com/in/Login">
+            <div class="input">
+                <input type="text" class="input1" placeholder="Email or phone number" id="txt1" required>
+                <div class="e1">
+                <span class="error1">Please enter a valid email address or phone number</span>
+                </div>
+    
+                <input type="password" class="input2" placeholder="Password" id="" required>
+                <div class="e1">
+                <span class="error2">Your password must contain between 4 and 60 characters.</span>
+                </div>
+    
+                <button id="sign-in-btn">Sign in</button>
+        </form>
+        
+          <div class="remember-help">
+            <div class="remember-me">
+                <input type="checkbox" id="checkbox" checked>
+                <label for="checkbox" >Remember me</label>
+                <a href="https://www.netflix.com/in/LoginHelp">Need help?</a>
+                </div>
+          </div>
+        </div>
+
+        <div class="content2">
+            <span class="new-to-netflix">New to Netflix?</span>    
+            <a href="https://www.netflix.com/in/" class="sign-up">Sign up now.</a>
+
+            <div class="content2-msg2">
+                <span class="captcha-msg">This page is protected by Google reCAPTCHA to ensure you're not a bot.</span>
+                <button id="learn-more">Learn more.</button>
+            </div>
+            <div class="privacy-msg">
+                <span>The information collected by Google reCAPTCHA is subject to the Google &nbsp;<a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>&nbsp; and &nbsp;<a href="https://policies.google.com/terms" target="_blank">Terms of Services</a>, and is used for providing, maintaining, and improving the reCAPTCHA service and for general security purposes (it is not used for personalised advertising by Google)."</span>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+    <!-- ************************FOOTER SECTION**************************** -->
+    
+        <div class="footer-section">
+            <div class="call">Questions? Call <a href="">000-800-919-1694</a></div>
+
+            <div class="footer-menu1">
+             <span><a href="https://help.netflix.com/en/node/412">FAQ</a></span>
+             <span><a href="https://help.netflix.com/en/">Help Centre</a></span>
+             <span><a href="https://help.netflix.com/legal/termsofuse">Terms of Use</a></span>
+             <span><a href="https://help.netflix.com/legal/privacy">Privacy</a></span>
+            </div>
+            <div class="footer-menu2">
+             <span><a href="">Cookie Preferences</a></span>
+             <span><a href="https://help.netflix.com/legal/corpinfo">Corporate Information</a></span>
+            </div>
+      
+
+            <div class="language-footer">
+                <select name="" id="lang-select">
+                    <option value="" selected>English</option>
+                    <option value="">हिन्दी</option>
+                </select>
+            </div>
+
+        </div>
+    
+    <script src="netflix.js"></script>
+</body>
+</html>
